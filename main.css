@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E9E9E9;
+}
+body, th, td, input, textarea {
+	font-size: 12px;
+	color: #666666;
+	font-weight: lighter;
+}
+
+h1 {
+	color: #626456;
+	text-decoration: underline;
+    text-decoration-color: red;
+}
+h1 {
+	letter-spacing: -0.075em;
+	font-size: 3em;
+	color: #040a58;
+	font-weight: lighter;
+	font-style:normal;
+    text-align: left;
+}
+
+h2 {
+	letter-spacing: -.05em;
+	text-transform: uppercase;
+	font-size: 2.1em;
+	font-weight: bold;
+	color: #07105f;
+}
+h3 {
+	font-size: 20px;
+	color: #0a1894;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding-bottom: 15px;
+    float: left;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0a1894;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #0a1894;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+p, ul, ol {
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+
+ul, ol {
+	margin-left: 5em;
+}
+
+a {
+	text-decoration: none;
+	color: #0c0c0c;
+    font-size: 1.3em;
+}
+
+a:hover {
+	border: none;
+    color: rgb(97, 186, 238);
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+#page {
+	padding: 0px;
+	width: 80%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#banner {
+	text-align: center;
+	margin-bottom: 5px;
+	border-bottom: 15px;
+}
+#border {
+	background-color: #326B86;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	margin: 0px;
+	color: #FFF;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+#menu {
+	height: 25px;
+	margin-right: 10px;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#menu ul {
+	line-height: normal;
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+	float: right;
+}
+#menu li {
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	width: 90px;
+}
+#menu a {
+	display: block;
+	float: left;
+	height: 20px;
+	margin-right: 1px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #092061;
+	width: 90px;
+	padding-bottom: 0;
+	text-align: center;
+	padding-top: 5px;
+    font-weight: bold;
+}
+#menu a:hover {
+	color: rgb(26, 106, 138);
+	text-decoration: underline;
+}
+#menu .current_page_item a {
+    
+	color: #070707;
+	text-decoration: underline;
+	background-image: url(file:///Macintosh%20HD/Users/mariannemann/Desktop/WEB%20JOBS/PRACTICE%20FILES/web%20templates/landscaping/images/menu-tab-bg-green.png);
+	background-repeat: no-repeat;
+}
+#current_page_item a:hover
+ {
+    background-color: rgb(13, 11, 158);
+  }
+
+#content table {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	
+}
+#content table tr td p {
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 5px;
+	width: 319px;
+}
+#content {
+	float: left;
+	width: 55%;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: -10px;
+}
+#about td {
+	width: 950px;
+}
+
+#content table tr td{
+	width: 200px;
+	text-align: center;
+	background-color: #FFFFFF;
+	column-span: 8px;
+}
+#images {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #images td, #images th {
+	border: 2px solid #ddd;
+	padding: 8px;
+	width: 170px;
+	font-weight: bold;
+	  }
+  
+  #images tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #images tr:hover {background-color: #ddd;}
+  
+  #images th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #f2f8f2;
+	color: rgb(14, 13, 13);
+	font-weight: bold;
+  }
+#sidebar {
+	float: left;
+	width: 15%;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E9E9E9;
+}
+#space {
+	margin-top: 30px;
+}
+#about_content{
+    float: left;
+	width: 98%;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#content_news{
+    float: left;
+	width: 55%;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#content_contact{
+    float: left;
+	width: 55%;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 150px;
+}
+
+#content_adevertising{
+    float: left;
+	width: 100%;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+body {/*contact form starts here*/
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 3px;
+    background-color: #dfdddd;
+    padding: 25px;
+    
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }/*ends here*/
+
+
+#footer {
+	background-color: #045510;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	margin: 0px;
+	color: #FFF;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+#footer p {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 13px;	
+}
